@@ -1,0 +1,12 @@
+# Robots.txt for Savoria Admin Dashboard
+# Admin dashboards should not be indexed
+
+User-agent: *
+Disallow: /
+
+# Block all crawlers from admin area
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
